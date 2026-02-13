@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Guardian</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="top">
+            <img id="shield" src="../assets/shield.png">
+            <div id="title">Phishing Guardian</div>
+        </div>
+        <div id="statusBox">
+            <div id="statusText">Scanning...</div>
+        </div>
+        <div id="urlBox">
+            <div id="label">Current Site</div>
+            <div id="currentURL"></div>
+        </div>
+        <div id="riskBox">
+            <div id="riskLabel">Risk Score</div>
+            <div id="riskValue">0%</div>
+        </div>
+        <div id="actions">
+            <button id="scanBtn">Rescan</button>
+            <button id="openPanel">Details</button>
+        </div>
+        <div id="detailsPanel">
+            <div id="panelTitle">Security Details</div>
+            <div class="row"><span>Entropy</span><span id="entropyVal">0</span></div>
+            <div class="row"><span>Subdomains</span><span id="subsVal">0</span></div>
+            <div class="row"><span>Length</span><span id="lenVal">0</span></div>
+            <div class="row"><span>ML Score</span><span id="mlVal">0</span></div>
+            <div class="row"><span>Punycode</span><span id="punyVal">0</span></div>
+            <div class="row"><span>Hostname Score</span><span id="hostVal">0</span></div>
+            <div id="closePanel">Close</div>
+        </div>
+        <div id="footer">
+            Powered by On‑Device Detection
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+    "dataset_name": "phishing_domains_5k",
+    "updated_on": "2026-01-12",
+    "count": 5000,
+    "domains": [
+        { "id": 1, "domain": "secure-login-paypal.com.fake", "label": "phishing" },
+        { "id": 2, "domain": "verify-account-amazon.net.fake", "label": "phishing" },
+        { "id": 3, "domain": "bankofamerica-secure.co.fake", "label": "phishing" },
+        { "id": 4, "domain": "google-security-check.gq.fake", "label": "phishing" },
+        { "id": 5, "domain": "login-office365-authenticate.info.fake", "label": "phishing" },
+        { "id": 6, "domain": "icici-bank.verification-alert.in.fake", "label": "phishing" },
+        { "id": 7, "domain": "hdfcnetbanking-secure-login.com.fake", "label": "phishing" },
+        { "id": 8, "domain": "flipkart-offer-claim.today.fake", "label": "phishing" },
+        { "id": 9, "domain": "instagram-recover-password.net.fake", "label": "phishing" },
+        { "id": 10, "domain": "facebook-login-verify-page.gq.fake", "label": "phishing" },
+        { "id": 11, "domain": "sbi-online.verify-update.in.fake", "label": "phishing" },
+        { "id": 12, "domain": "kotakbank-secure-login.org.fake", "label": "phishing" },
+        { "id": 13, "domain": "upi-payment-fraud-checker.xyz.fake", "label": "phishing" },
+        { "id": 14, "domain": "snapdeal-gift-reward.today.fake", "label": "phishing" },
+        { "id": 15, "domain": "myaadhar-update-verification.gov.in.fake", "label": "phishing" },
+        { "id": 5000, "domain": "example-5000-phish.test.fake", "label": "phishing" }
+    ]
+}
